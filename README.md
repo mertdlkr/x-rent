@@ -1,3 +1,5 @@
+**Bu proje ICP Stellar Işık Üniversitesi hackathonunda Mert Ali Dalkır tarafından geliştirilmiştir.**
+
 # 🚀 X-Rent - Yeni Nesil DeFi Lending Platformu
 
 ![X-Rent Banner](https://via.placeholder.com/1200x300/3B82F6/FFFFFF?text=X-Rent%20DeFi%20Protocol)
