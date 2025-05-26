@@ -2,7 +2,8 @@
 
 # 🚀 X-Rent – Next-Gen DeFi Lending Platform
 
-![X-Rent Banner](https://via.placeholder.com/1200x300/3B82F6/FFFFFF?text=X-Rent%20DeFi%20Protocol)
+![xrent](https://github.com/user-attachments/assets/db59dd74-ad0d-4161-87f5-fd874a4dcd2a)
+
 
 <div align="center">
 
