@@ -1,213 +1,229 @@
-**Bu proje ICP Stellar Işık Üniversitesi hackathonunda Mert Ali Dalkır tarafından geliştirilmiştir.**
+**This project was developed by Mert Ali Dalkır during the ICP Stellar Light University hackathon.**
 
-# 🚀 X-Rent - Yeni Nesil DeFi Lending Platformu
+# 🚀 X-Rent – Next-Gen DeFi Lending Platform
 
 ![X-Rent Banner](https://via.placeholder.com/1200x300/3B82F6/FFFFFF?text=X-Rent%20DeFi%20Protocol)
 
 <div align="center">
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.1.8-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Stellar](https://img.shields.io/badge/Stellar-Blockchain-7B68EE?style=for-the-badge&logo=stellar)](https://stellar.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-15.1.8-black?style=for-the-badge\&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge\&logo=typescript)](https://www.typescriptlang.org/)
+[![Stellar](https://img.shields.io/badge/Stellar-Blockchain-7B68EE?style=for-the-badge\&logo=stellar)](https://stellar.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge\&logo=tailwind-css)](https://tailwindcss.com/)
 
-**Kripto varlıklarınızı maksimum verimle değerlendirin!**
+**Maximize the efficiency of your crypto assets!**
 
-[🌐 Demo](http://localhost:3001) | [📖 Dokümanlar](#-kullanım-kılavuzu) | [🛠️ Kurulum](#-kurulum) | [🤝 Katkıda Bulun](#-katkıda-bulunma)
+[🌐 Demo](http://localhost:3001) | [📖 Documentation](#-usage-guide) | [🛠️ Setup](#-setup) | [🤝 Contribute](#-contributing)
 
 </div>
 
 ---
 
-## 📋 İçindekiler
+## 📋 Table of Contents
 
-- [🎯 Proje Hakkında](#-proje-hakkında)
-- [✨ Özellikler](#-özellikler)
-- [🔢 Platform Metrikleri](#-platform-metrikleri)
-- [🛠️ Kurulum](#-kurulum)
-- [📱 Kullanım Kılavuzu](#-kullanım-kılavuzu)
-- [🏗️ Teknik Mimari](#-teknik-mimari)
-- [🔐 Güvenlik](#-güvenlik)
-- [🤝 Katkıda Bulunma](#-katkıda-bulunma)
-- [📄 Lisans](#-lisans)
-- [🔗 Bağlantılar](#-bağlantılar)
-
----
-
-## 🎯 Proje Hakkında
-
-**X-Rent**, Stellar blockchain üzerinde geliştirilen yenilikçi bir **DeFi (Decentralized Finance) protokolüdür**. Platform, kullanıcıların kripto varlıklarını ödünç verebilmesine veya geçici olarak kiralayabilmesine olanak tanır.
-
-### 🌟 Misyonumuz
-Kripto ekosisteminde **likidite sağlayıcıları** ve **borç alanlar** arasında güvenli, şeffaf ve verimli bir köprü kurarak, herkesin finansal varlıklarından maksimum fayda sağlamasını mümkün kılmak.
-
-### 🎮 Neden X-Rent?
-- **🔥 %18.5'e varan APY** ile pasif gelir elde edin
-- **⚡ Stellar Network** sayesinde saniye altı işlemler
-- **🛡️ Audit edilmiş smart contract'lar** ile güvenlik
-- **💎 50+ kripto varlık** desteği
-- **🌍 7/24 küresel erişim**
+* [🎯 About the Project](#-about-the-project)
+* [✨ Features](#-features)
+* [🔢 Platform Metrics](#-platform-metrics)
+* [🛠️ Setup](#-setup)
+* [📱 Usage Guide](#-usage-guide)
+* [🏗️ Technical Architecture](#-technical-architecture)
+* [🔐 Security](#-security)
+* [🤝 Contributing](#-contributing)
+* [📄 License](#-license)
+* [🔗 Links](#-links)
 
 ---
 
-## ✨ Özellikler
+## 🎯 About the Project
 
-### 🏦 DeFi Protokol Özellikleri
+**X-Rent** is an innovative **DeFi (Decentralized Finance) protocol** built on the Stellar blockchain. The platform allows users to lend or temporarily rent out their crypto assets.
+
+### 🌟 Our Mission
+
+To create a secure, transparent, and efficient bridge between **liquidity providers** and **borrowers** in the crypto ecosystem, enabling everyone to fully benefit from their financial assets.
+
+### 🎮 Why X-Rent?
+
+* **🔥 Up to 18.5% APY** for passive income
+* **⚡ Sub-second transactions** via Stellar Network
+* **🛡️ Audited smart contracts** for security
+* **💎 Support for 50+ crypto assets**
+* **🌍 24/7 global accessibility**
+
+---
+
+## ✨ Features
+
+### 🏦 DeFi Protocol Capabilities
 
 #### 💰 **Yield Farming & Staking**
-- **Otomatik compound** stratejileri
-- **Likidite madenciliği** ödülleri
-- **Dinamik APY optimizasyonu**
-- **Risk yönetimi** araçları
 
-#### 🔄 **Akıllı Ödünç Verme**
-- **Esnek kiralama süreleri** (1 gün - 1 yıl)
-- **Özelleştirilebilir faiz oranları**
-- **Otomatik teminat yönetimi**
-- **Anında likidite** sağlama
+* **Automatic compounding** strategies
+* **Liquidity mining** rewards
+* **Dynamic APY optimization**
+* **Risk management** tools
 
-#### 📊 **Gelişmiş Analitik**
-- **Gerçek zamanlı TVL** takibi
-- **Portföy analizi** araçları
-- **Risk değerlendirmesi**
-- **Yield optimizasyon** önerileri
+#### 🔄 **Smart Lending**
 
-#### 🌐 **Cross-Chain Uyumluluk**
-- **Ethereum** köprüsü
-- **BSC** entegrasyonu
-- **Polygon** desteği
-- **Minimal slippage** ile asset bridging
+* **Flexible rental durations** (1 day – 1 year)
+* **Customizable interest rates**
+* **Automatic collateral management**
+* **Instant liquidity provisioning**
+
+#### 📊 **Advanced Analytics**
+
+* **Real-time TVL tracking**
+* **Portfolio analysis** tools
+* **Risk assessment**
+* **Yield optimization** suggestions
+
+#### 🌐 **Cross-Chain Compatibility**
+
+* **Ethereum bridge**
+* **BSC integration**
+* **Polygon support**
+* **Asset bridging** with minimal slippage
 
 ---
 
-## 🔢 Platform Metrikleri
+## 🔢 Platform Metrics
 
 <div align="center">
 
-| 📈 Metrik | 💎 Değer | 📝 Açıklama |
-|-----------|-----------|-------------|
-| **💰 TVL** | **$24.7M** | Toplam Kilitli Değer |
-| **🎯 Max APY** | **%18.5** | Maksimum Yıllık Getiri |
-| **👥 Kullanıcı** | **15,247** | Aktif DeFi Kullanıcıları |
-| **📊 24s Hacim** | **$8.3B** | Günlük İşlem Hacmi |
-| **🌊 Havuz** | **47** | Likidite Havuz Sayısı |
-| **💵 Günlük Yield** | **$2.1M** | Günlük Yield Üretimi |
+| 📈 Metric          | 💎 Value    | 📝 Description            |
+| ------------------ | ----------- | ------------------------- |
+| **💰 TVL**         | **\$24.7M** | Total Value Locked        |
+| **🎯 Max APY**     | **18.5%**   | Maximum Annual Yield      |
+| **👥 Users**       | **15,247**  | Active DeFi Users         |
+| **📊 24h Volume**  | **\$8.3B**  | Daily Trading Volume      |
+| **🌊 Pools**       | **47**      | Number of Liquidity Pools |
+| **💵 Daily Yield** | **\$2.1M**  | Daily Yield Generation    |
 
 </div>
 
 ---
 
-## 🛠️ Kurulum
+## 🛠️ Setup
 
-### 📋 Gereksinimler
+### 📋 Requirements
 
-- **Node.js** 18+ ve npm
-- **Freighter Wallet** tarayıcı eklentisi
-- Modern web tarayıcısı (Chrome, Firefox, Safari)
+* **Node.js** 18+ and npm
+* **Freighter Wallet** browser extension
+* Modern web browser (Chrome, Firefox, Safari)
 
-### ⚡ Hızlı Başlangıç
+### ⚡ Quick Start
 
 ```bash
-# 1️⃣ Repo'yu klonlayın
+# 1️⃣ Clone the repo
 git clone https://github.com/your-username/x-rent.git
 cd x-rent
 
-# 2️⃣ Frontend bağımlılıklarını yükleyin
+# 2️⃣ Install frontend dependencies
 cd frontend
 npm install
 
-# 3️⃣ Geliştirme sunucusunu başlatın
+# 3️⃣ Start the development server
 npm run dev
 ```
 
-### 🌐 Tarayıcıda Açın
+### 🌐 Open in browser
+
 ```
 http://localhost:3001
 ```
 
-### 🔧 Gelişmiş Kurulum
+### 🔧 Advanced Setup
 
-#### 📝 Environment Değişkenleri
+#### 📝 Environment Variables
+
 ```bash
-# frontend/.env.local oluşturun
+# Create frontend/.env.local
 NEXT_PUBLIC_STELLAR_NETWORK=testnet
 NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address
 NEXT_PUBLIC_PLATFORM_NAME=X-Rent
 ```
 
 #### 🏗️ Production Build
+
 ```bash
-# Build almak için
+# Build for production
 npm run build
 
-# Production modunda çalıştır
+# Start in production mode
 npm start
 ```
 
 ---
 
-## 📱 Kullanım Kılavuzu
+## 📱 Usage Guide
 
-### 🔐 1. Cüzdan Bağlama
+### 🔐 1. Connect Wallet
 
-1. **Freighter Wallet** eklentisini yükleyin
-2. Ana sayfada **"Connect Freighter Wallet"** butonuna tıklayın
-3. Freighter'da bağlantıyı onaylayın
-4. Cüzdan adresi navigation bar'da görünecek
+1. Install **Freighter Wallet** extension
+2. Click **"Connect Freighter Wallet"** on the homepage
+3. Approve connection in Freighter
+4. Your wallet address will appear in the nav bar
 
-### 💰 2. Ödünç Verme (Lending)
+### 💰 2. Lending
 
-#### 📊 Adım Adım:
-1. **"Provide Liquidity"** sekmesine gidin
-2. **Token türünü** seçin (USDC, XLM, vb.)
-3. **Ödünç vereceğiniz miktarı** girin
-4. **Faiz oranını** belirleyin (%5-18.5 arası)
-5. **Kiralama süresini** ayarlayın
-6. **Teminat gereksinimlerini** yapılandırın
-7. **"Create Listing"** ile listeyi oluşturun
+#### 📊 Step-by-Step:
 
-#### 💡 İpuçları:
-- **Yüksek APY** için popüler token'ları tercih edin
-- **Kısa süreli** kiralamalar daha güvenlidir
-- **Teminat oranını** %120 üzerine ayarlayın
+1. Go to the **"Provide Liquidity"** tab
+2. Select a **token** (USDC, XLM, etc.)
+3. Enter the **amount to lend**
+4. Set the **interest rate** (5%–18.5%)
+5. Set the **rental duration**
+6. Configure **collateral requirements**
+7. Click **"Create Listing"**
 
-### 🏦 3. Ödünç Alma (Borrowing)
+#### 💡 Tips:
 
-#### 📊 Adım Adım:
-1. **"Borrow Assets"** sekmesine gidin
-2. **Mevcut listeleri** inceleyin
-3. **Uygun teklifler** için filtreleme yapın
-4. **Kiralama süresini** seçin
-5. **Teminat + kira bedelini** ödeyin
-6. **Token'lar cüzdanınıza** transfer edilir
+* Prefer **popular tokens** for higher APY
+* **Short-term rentals** are safer
+* Set **collateral ratio** above 120%
 
-#### ⚠️ Önemli:
-- **Geri ödeme tarihini** kaçırmayın
-- **Teminatınızı** zamanında geri alın
-- **Ekstra ücretlerden** kaçının
+### 🏦 3. Borrowing
 
-### 📊 4. Dashboard Kullanımı
+#### 📊 Step-by-Step:
 
-#### 📈 Metrikleri İzleyin:
-- **Total Earned**: Toplam kazancınız
-- **Active Rentals**: Aktif kiralamalarınız
-- **Total Lent**: Toplam ödünç verdiğiniz miktar
-- **Total Borrowed**: Toplam ödünç aldığınız miktar
+1. Go to the **"Borrow Assets"** tab
+2. Browse the **available listings**
+3. Filter for **suitable offers**
+4. Choose **rental duration**
+5. Pay the **collateral + rental fee**
+6. **Tokens are transferred** to your wallet
 
-#### 📋 Aktivite Takibi:
-- **Recent Activity** bölümünde tüm işlemlerinizi görün
-- **Status** durumlarını kontrol edin (Active, Completed, Expired)
-- **Expire** tarihlerini takip edin
+#### ⚠️ Important:
 
-### 🚪 5. Çıkış Yapma
+* Don’t miss the **repayment deadline**
+* Withdraw your **collateral on time**
+* Avoid **extra fees**
 
-Navigation bar'da **kırmızı "Logout"** butonuna tıklayarak cüzdanınızı güvenli şekilde bağlantısını kesebilirsiniz.
+### 📊 4. Using the Dashboard
+
+#### 📈 Monitor Your Metrics:
+
+* **Total Earned**: Your overall earnings
+* **Active Rentals**: Your active rentals
+* **Total Lent**: Total amount you've lent
+* **Total Borrowed**: Total borrowed amount
+
+#### 📋 Track Activity:
+
+* View all actions under **Recent Activity**
+* Check status: **Active, Completed, Expired**
+* Monitor **expiration dates**
+
+### 🚪 5. Log Out
+
+Click the red **"Logout"** button in the nav bar to securely disconnect your wallet.
 
 ---
 
-## 🏗️ Teknik Mimari
+## 🏗️ Technical Architecture
 
 ### 🎨 Frontend
+
 ```
 Next.js 15.1.8 + TypeScript
 ├── 🎨 Tailwind CSS (Styling)
@@ -217,6 +233,7 @@ Next.js 15.1.8 + TypeScript
 ```
 
 ### 🔗 Blockchain
+
 ```
 Stellar Network
 ├── 📝 Smart Contracts (Rust/Soroban)
@@ -225,14 +242,15 @@ Stellar Network
 └── ⚡ Sub-second Transactions
 ```
 
-### 📁 Proje Yapısı
+### 📁 Project Structure
+
 ```
 x-rent/
 ├── 📂 frontend/
 │   ├── 📂 src/
 │   │   ├── 📂 app/           # Next.js App Router
-│   │   ├── 📂 components/    # React Bileşenleri
-│   │   └── 📂 styles/        # CSS Dosyaları
+│   │   ├── 📂 components/    # React Components
+│   │   └── 📂 styles/        # CSS Files
 │   ├── 📄 package.json
 │   └── 📄 next.config.ts
 ├── 📂 rent-vault/           # Smart Contracts
@@ -242,112 +260,118 @@ x-rent/
 
 ---
 
-## 🔐 Güvenlik
+## 🔐 Security
 
-### 🛡️ Güvenlik Önlemleri
+### 🛡️ Security Measures
 
-#### ✅ **Audit Edilen Kontratlar**
-- **Çoklu güvenlik denetimi** geçmiş
-- **$24M+ TVL** ile savaş testinden geçmiş
-- **Sıfır exploit** kaydı
+#### ✅ **Audited Contracts**
 
-#### 🔒 **Akıllı Kontrat Güvenliği**
-- **Multi-signature** koruması
-- **Reentrancy** saldırı koruması
-- **Input validation** kontrolü
-- **Time-lock** mekanizması
+* **Multiple security audits** conducted
+* **Battle-tested with \$24M+ TVL**
+* **Zero exploits** recorded
 
-#### 🛡️ **Kullanıcı Güvenliği**
-- **Freighter wallet** entegrasyonu
-- **Şifreli bağlantılar**
-- **İşlem onayları**
-- **Metadata doğrulama**
+#### 🔒 **Smart Contract Security**
 
-### ⚠️ Risk Uyarıları
+* **Multi-signature** protection
+* **Reentrancy** attack safeguards
+* **Input validation** checks
+* **Time-lock** mechanisms
 
-> **⚠️ DİKKAT:** Bu deneysel bir yazılımdır. Lütfen kendi riskinizle kullanın ve kaybetmeyi göze alabileceğinizden fazlasını yatırım yapmayın.
+#### 🛡️ **User Protection**
+
+* Integrated **Freighter wallet**
+* **Encrypted connections**
+* **Transaction approvals**
+* **Metadata verification**
+
+### ⚠️ Risk Warning
+
+> **⚠️ WARNING:** This is experimental software. Use at your own risk and never invest more than you can afford to lose.
 
 ---
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-### 🎯 Katkı Türleri
+### 🎯 Contribution Types
 
-- 🐛 **Bug Report**: Hata bildirimi
-- 💡 **Feature Request**: Özellik önerisi  
-- 📝 **Documentation**: Dokümantasyon geliştirme
-- 🔧 **Code Contribution**: Kod katkısı
-- 🌍 **Translation**: Çeviri desteği
+* 🐛 **Bug Reports**
+* 💡 **Feature Suggestions**
+* 📝 **Documentation Improvements**
+* 🔧 **Code Contributions**
+* 🌍 **Translations**
 
-### 📋 Katkı Süreci
+### 📋 Contribution Workflow
 
 ```bash
-# 1️⃣ Fork yapın
+# 1️⃣ Fork the repo
 git fork https://github.com/your-username/x-rent.git
 
-# 2️⃣ Feature branch oluşturun
+# 2️⃣ Create a feature branch
 git checkout -b feature/awesome-feature
 
-# 3️⃣ Değişikliklerinizi commit edin
+# 3️⃣ Commit your changes
 git commit -m 'feat: Add awesome feature'
 
-# 4️⃣ Branch'inizi push edin
+# 4️⃣ Push your branch
 git push origin feature/awesome-feature
 
-# 5️⃣ Pull Request açın
+# 5️⃣ Open a Pull Request
 ```
 
-### 📏 Kod Standartları
+### 📏 Code Standards
 
-- **TypeScript**: Strict mode kullanın
-- **ESLint**: Kod kalitesi kontrolü
-- **Prettier**: Kod formatlama
-- **Test Coverage**: %90+ test kapsamı
+* Use **TypeScript** with strict mode
+* Use **ESLint** for linting
+* Use **Prettier** for formatting
+* Maintain **90%+ test coverage**
 
 ---
 
-## 📄 Lisans
+## 📄 License
 
-Bu proje **MIT Lisansı** altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ```
-MIT License - Özgürce kullanın, değiştirin ve dağıtın!
+MIT License – Feel free to use, modify, and distribute!
 ```
 
 ---
 
-## 🔗 Bağlantılar
+## 🔗 Links
 
-### 🌐 **Resmi Linkler**
-- 🏠 **Website**: [https://x-rent.io](https://x-rent.io)
-- 📖 **Dokümanlar**: [https://docs.x-rent.io](https://docs.x-rent.io)
-- 🐦 **Twitter**: [@xrent_platform](https://twitter.com/xrent_platform)
-- 💬 **Discord**: [X-Rent Community](https://discord.gg/x-rent)
+### 🌐 **Official Links**
 
-### 🛠️ **Geliştirici Kaynakları**
-- 📚 **GitHub**: [github.com/x-rent](https://github.com/x-rent)
-- 🔧 **API Docs**: [api.x-rent.io](https://api.x-rent.io)
-- 🏦 **Stellar Network**: [stellar.org](https://stellar.org)
-- 👛 **Freighter Wallet**: [freighter.app](https://freighter.app)
+* 🏠 **Website**: [https://x-rent.io](https://x-rent.io)
+* 📖 **Documentation**: [https://docs.x-rent.io](https://docs.x-rent.io)
+* 🐦 **Twitter**: [@xrent\_platform](https://twitter.com/xrent_platform)
+* 💬 **Discord**: [X-Rent Community](https://discord.gg/x-rent)
+
+### 🛠️ **Developer Resources**
+
+* 📚 **GitHub**: [github.com/x-rent](https://github.com/x-rent)
+* 🔧 **API Docs**: [api.x-rent.io](https://api.x-rent.io)
+* 🏦 **Stellar Network**: [stellar.org](https://stellar.org)
+* 👛 **Freighter Wallet**: [freighter.app](https://freighter.app)
 
 ### 📊 **Analytics & Tracking**
-- 📈 **DeFiPulse**: [defipulse.com/x-rent](https://defipulse.com/x-rent)
-- 🔍 **DeFiLlama**: [defillama.com/protocol/x-rent](https://defillama.com/protocol/x-rent)
-- 📊 **CoinGecko**: [coingecko.com/en/coins/x-rent](https://coingecko.com/en/coins/x-rent)
+
+* 📈 **DeFiPulse**: [defipulse.com/x-rent](https://defipulse.com/x-rent)
+* 🔍 **DeFiLlama**: [defillama.com/protocol/x-rent](https://defillama.com/protocol/x-rent)
+* 📊 **CoinGecko**: [coingecko.com/en/coins/x-rent](https://coingecko.com/en/coins/x-rent)
 
 ---
 
 <div align="center">
 
-## 🚀 Hemen Başlayın!
+## 🚀 Get Started Now!
 
-**Kripto varlıklarınızı çalıştırın, pasif gelir elde edin!**
+**Put your crypto to work and earn passive income!**
 
-[![Get Started](https://img.shields.io/badge/🚀_Hemen_Başla-3B82F6?style=for-the-badge&logoColor=white)](http://localhost:3001)
+[![Get Started](https://img.shields.io/badge/🚀_Get_Started-3B82F6?style=for-the-badge\&logoColor=white)](http://localhost:3001)
 
 ---
 
-**⭐ Projeyi beğendiyseniz yıldızlamayı unutmayın!**
+**⭐ If you like the project, don't forget to star it!**
 
 ![GitHub stars](https://img.shields.io/github/stars/your-username/x-rent?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/your-username/x-rent?style=social)
@@ -355,8 +379,8 @@ MIT License - Özgürce kullanın, değiştirin ve dağıtın!
 
 ---
 
-<sub>💙 **X-Rent Team** tarafından ❤️ ile geliştirilmiştir</sub>
+<sub>💙 Built with ❤️ by the **X-Rent Team**</sub>
 
-*Merkeziyetsiz finansın geleçeğini birlikte inşa ediyoruz! 🌟*
+*Together, we are building the future of decentralized finance! 🌟*
 
-</div> 
+</div>
