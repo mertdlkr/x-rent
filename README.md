@@ -363,12 +363,6 @@ MIT License – Feel free to use, modify, and distribute!
 
 <div align="center">
 
-## 🚀 Get Started Now!
-
-**Put your crypto to work and earn passive income!**
-
-[![Get Started](https://img.shields.io/badge/🚀_Get_Started-3B82F6?style=for-the-badge\&logoColor=white)](http://localhost:3001)
-
 ---
 
 **⭐ If you like the project, don't forget to star it!**
