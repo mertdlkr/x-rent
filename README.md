@@ -1,7 +1,8 @@
 **This project was developed by Mert Ali Dalkır during the ICP Stellar Light University hackathon.**
----
+<div>
 Deployed on Testnet: https://stellar.expert/explorer/testnet/tx/d93cd5c07511293c08de6d2c72d41f6b6c71e2b2aa432ae7418216cd9a4bd314
----
+</div>
+
 
 # 🚀 X-Rent – Next-Gen DeFi Lending Platform
 
